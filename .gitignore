@@ -1,0 +1,21 @@
+# Ignore log files
+*.log
+logs/
+evaluate_models.log
+huggingface_model_info.log
+model_download.log
+prediction_results.log
+test_app.log
+
+# Ignore saved models and output folders
+saved_models/
+roberta_fine_tuned/
+models/
+bert_fine_tuned/
+
+# Ignore dataset files (large data)
+training.1600000.processed.noemoticon.csv
+tweet_predictions_partial_50000.csv
+
+# Ignore any environment or config files
+.env
